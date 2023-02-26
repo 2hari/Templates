@@ -39,7 +39,7 @@
 
 ### react-router-dom
 
-- passing state to navigate
+- passing state to navigate and using it in next route without any additional statemanagement solution.
 
 ### cloudinary
 
@@ -70,6 +70,8 @@
 - connect vs connection
 - updating a nested array with findByIdAndUpdate along with $push & $pull.
 - countDocuments instead of filtering and taking the array length. This is what being performance oriented means.
+- limiting the no of items from a api response
+- filtering the find query with min and max using $gt & $lt.
 
 ### tips
 

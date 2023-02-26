@@ -29,7 +29,6 @@ export const countByCity = async (req, res, next) => {
   try {
     const list = await Promise.all(
       cities.map((city) => {
-        console.log(city)
         return Hotel.countDocuments({ city: city.toLowerCase() })
       })
     )

@@ -7,6 +7,7 @@ import {
 import './App.css'
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
+import List from "./pages/list/List";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/hotels" element={<List/>}/>
       </Routes>
     </BrowserRouter>
   );
