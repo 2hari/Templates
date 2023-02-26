@@ -58,6 +58,7 @@
 - using modules in node also means export default and no need for named routers.
 - bcrypt js and creating http only cookies to be send as login tokens.
 - while updating doc - using "set" and "new:true"
+- queries vs params.
 
 ### Authentication
 
@@ -67,7 +68,8 @@
 ### mongoose
 
 - connect vs connection
--
+- updating a nested array with findByIdAndUpdate along with $push & $pull.
+- countDocuments instead of filtering and taking the array length. This is what being performance oriented means.
 
 ### tips
 
@@ -80,3 +82,4 @@
 - Makes no sense business as a business model
 - Doesn't need maps - cause this is MakeMyTrip clone not AirBnB or Realtor. Still a lot of features missing.
 - UI could be bit more polished. currently it's almost trash. Both FE and Admin. Especially the admin dark mode.
+- animated skeleton instead of loading text.
